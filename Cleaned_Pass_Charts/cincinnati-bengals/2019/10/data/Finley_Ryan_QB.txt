@@ -1,0 +1,1 @@
+{"completions": 16, "passingYards": 167, "touchdowns": 1, "playerNameSlug": "ryan-finley", "teamId": "0920", "interceptions": 1, "playerName": "Ryan Finley", "season": 2019, "position": "QB", "type": "pass", "week": 10, "gameId": 2019111001, "esbId": "FIN412269", "firstName": "Ryan", "lastName": "Finley", "attempts": 30, "team": "cincinnati-bengals"}

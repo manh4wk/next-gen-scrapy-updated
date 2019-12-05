@@ -1,0 +1,1 @@
+{"completions": 14, "passingYards": 174, "touchdowns": 2, "playerNameSlug": "mason-rudolph", "teamId": "3900", "interceptions": 1, "playerName": "Mason Rudolph", "season": 2019, "position": "QB", "type": "pass", "week": 3, "gameId": 2019092212, "esbId": "RUD321216", "firstName": "Mason", "lastName": "Rudolph", "attempts": 27, "team": "pittsburgh-steelers"}

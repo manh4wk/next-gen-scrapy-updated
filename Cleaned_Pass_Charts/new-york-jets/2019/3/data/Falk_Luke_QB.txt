@@ -1,0 +1,1 @@
+{"completions": 12, "passingYards": 98, "touchdowns": 0, "playerNameSlug": "luke-falk", "teamId": "3430", "interceptions": 1, "playerName": "Luke Falk", "season": 2019, "position": "QB", "type": "pass", "week": 3, "gameId": 2019092206, "esbId": "FAL452491", "firstName": "Luke", "lastName": "Falk", "attempts": 22, "team": "new-york-jets"}

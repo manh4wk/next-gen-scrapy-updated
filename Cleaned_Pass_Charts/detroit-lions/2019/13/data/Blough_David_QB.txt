@@ -1,0 +1,1 @@
+{"completions": 22, "passingYards": 280, "touchdowns": 2, "playerNameSlug": "david-blough", "teamId": "1540", "interceptions": 1, "playerName": "David Blough", "season": 2019, "position": "QB", "type": "pass", "week": 13, "gameId": 2019112800, "esbId": "BLO315389", "firstName": "David", "lastName": "Blough", "attempts": 38, "team": "detroit-lions"}

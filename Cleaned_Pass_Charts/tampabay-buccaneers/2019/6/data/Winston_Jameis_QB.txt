@@ -1,0 +1,1 @@
+{"completions": 30, "passingYards": 400, "touchdowns": 1, "playerNameSlug": "jameis-winston", "teamId": "4900", "interceptions": 5, "playerName": "Jameis Winston", "season": 2019, "position": "QB", "type": "pass", "week": 6, "gameId": 2019101300, "esbId": "WIN623708", "firstName": "Jameis", "lastName": "Winston", "attempts": 54, "team": "tampabay-buccaneers"}

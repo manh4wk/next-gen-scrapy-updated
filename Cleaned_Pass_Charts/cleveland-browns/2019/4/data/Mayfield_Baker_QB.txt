@@ -1,0 +1,1 @@
+{"completions": 20, "passingYards": 342, "touchdowns": 1, "playerNameSlug": "baker-mayfield", "teamId": "1050", "interceptions": 1, "playerName": "Baker Mayfield", "season": 2019, "position": "QB", "type": "pass", "week": 4, "gameId": 2019092901, "esbId": "MAY483453", "firstName": "Baker", "lastName": "Mayfield", "attempts": 30, "team": "cleveland-browns"}

@@ -1,0 +1,1 @@
+{"completions": 15, "passingYards": 209, "touchdowns": 2, "playerNameSlug": "jeff-driskel", "teamId": "1540", "interceptions": 0, "playerName": "Jeff Driskel", "season": 2019, "position": "QB", "type": "pass", "week": 11, "gameId": 2019111702, "esbId": "DRI392790", "firstName": "Jeffrey", "lastName": "Driskel", "attempts": 26, "team": "detroit-lions"}

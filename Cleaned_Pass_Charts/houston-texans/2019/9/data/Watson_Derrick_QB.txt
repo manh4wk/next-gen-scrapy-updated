@@ -1,0 +1,1 @@
+{"completions": 22, "passingYards": 201, "touchdowns": 2, "playerNameSlug": "deshaun-watson", "teamId": "2120", "interceptions": 0, "playerName": "Deshaun Watson", "season": 2019, "position": "QB", "type": "pass", "week": 9, "gameId": 2019110300, "esbId": "WAT338355", "firstName": "Derrick", "lastName": "Watson", "attempts": 28, "team": "houston-texans"}

@@ -1,0 +1,1 @@
+{"completions": 23, "passingYards": 336, "touchdowns": 2, "playerNameSlug": "daniel-jones", "teamId": "3410", "interceptions": 0, "playerName": "Daniel Jones", "season": 2019, "position": "QB", "type": "pass", "week": 3, "gameId": 2019092209, "esbId": "JON165462", "firstName": "Daniel", "lastName": "Jones", "attempts": 36, "team": "new-york-giants"}

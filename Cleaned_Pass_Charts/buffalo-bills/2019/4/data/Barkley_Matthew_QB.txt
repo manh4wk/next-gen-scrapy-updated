@@ -1,0 +1,1 @@
+{"completions": 9, "passingYards": 127, "touchdowns": 0, "playerNameSlug": "matt-barkley", "teamId": "0610", "interceptions": 1, "playerName": "Matt Barkley", "season": 2019, "position": "QB", "type": "pass", "week": 4, "gameId": 2019092902, "esbId": "BAR192558", "firstName": "Matthew", "lastName": "Barkley", "attempts": 16, "team": "buffalo-bills"}

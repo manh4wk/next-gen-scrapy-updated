@@ -1,0 +1,1 @@
+{"completions": 19, "passingYards": 259, "touchdowns": 2, "playerNameSlug": "carson-wentz", "teamId": "3700", "interceptions": 0, "playerName": "Carson Wentz", "season": 2019, "position": "QB", "type": "pass", "week": 3, "gameId": 2019092207, "esbId": "WEN615770", "firstName": "Carson", "lastName": "Wentz", "attempts": 36, "team": "philadelphia-eagles"}

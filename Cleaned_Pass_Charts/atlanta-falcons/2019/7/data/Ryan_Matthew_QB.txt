@@ -1,0 +1,1 @@
+{"completions": 16, "passingYards": 159, "touchdowns": 0, "playerNameSlug": "matt-ryan", "teamId": "0200", "interceptions": 1, "playerName": "Matt Ryan", "season": 2019, "position": "QB", "type": "pass", "week": 7, "gameId": 2019102000, "esbId": "RYA238179", "firstName": "Matthew", "lastName": "Ryan", "attempts": 27, "team": "atlanta-falcons"}

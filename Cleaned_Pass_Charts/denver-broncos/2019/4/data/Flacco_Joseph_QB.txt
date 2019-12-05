@@ -1,0 +1,1 @@
+{"completions": 22, "passingYards": 303, "touchdowns": 3, "playerNameSlug": "joe-flacco", "teamId": "1400", "interceptions": 1, "playerName": "Joe Flacco", "season": 2019, "position": "QB", "type": "pass", "week": 4, "gameId": 2019092911, "esbId": "FLA009602", "firstName": "Joseph", "lastName": "Flacco", "attempts": 38, "team": "denver-broncos"}

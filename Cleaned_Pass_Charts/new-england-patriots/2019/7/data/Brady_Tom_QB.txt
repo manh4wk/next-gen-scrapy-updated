@@ -1,0 +1,1 @@
+{"completions": 31, "passingYards": 249, "touchdowns": 1, "playerNameSlug": "tom-brady", "teamId": "3200", "interceptions": 1, "playerName": "Tom Brady", "season": 2019, "position": "QB", "type": "pass", "week": 7, "gameId": 2019102100, "esbId": "BRA371156", "firstName": "Tom", "lastName": "Brady", "attempts": 45, "team": "new-england-patriots"}

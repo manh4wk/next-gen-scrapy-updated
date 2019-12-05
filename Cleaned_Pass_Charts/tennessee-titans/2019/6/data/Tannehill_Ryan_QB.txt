@@ -1,0 +1,1 @@
+{"completions": 13, "passingYards": 144, "touchdowns": 0, "playerNameSlug": "ryan-tannehill", "teamId": "2100", "interceptions": 1, "playerName": "Ryan Tannehill", "season": 2019, "position": "QB", "type": "pass", "week": 6, "gameId": 2019101309, "esbId": "TAN298716", "firstName": "Ryan", "lastName": "Tannehill", "attempts": 16, "team": "tennessee-titans"}

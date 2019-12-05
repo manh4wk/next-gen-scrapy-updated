@@ -1,0 +1,1 @@
+{"completions": 1, "passingYards": 15, "touchdowns": 1, "playerNameSlug": "julian-edelman", "teamId": "3200", "interceptions": 0, "playerName": "Julian Edelman", "season": 2019, "position": "WR", "type": "pass", "week": 11, "gameId": 2019111710, "esbId": "EDE425791", "firstName": "Julian", "lastName": "Edelman", "attempts": 1, "team": "new-england-patriots"}

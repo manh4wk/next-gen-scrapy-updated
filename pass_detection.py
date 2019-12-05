@@ -14,6 +14,7 @@ import pandas as pd
 import math
 import os
 import scipy.misc
+import imageio
 
 
 def map_pass_locations(centers, col, pass_type, n_empty = 0):
@@ -271,7 +272,8 @@ def touchdowns(image, n):
             if f < 32 and b > 100: 
                 p[i,j] = (255, 255,0)
 
-    scipy.misc.imsave('temp.jpg', img)
+    #scipy.misc.imsave('temp.jpg', img)
+    imageio.imwrite('temp.jpg',img)
     imag = cv2.imread('temp.jpg')
     os.remove('temp.jpg')
     hsv = cv2.cvtColor(imag, cv2.COLOR_BGR2HSV)

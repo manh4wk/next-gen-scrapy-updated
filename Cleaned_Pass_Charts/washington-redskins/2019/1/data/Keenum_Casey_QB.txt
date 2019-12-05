@@ -1,0 +1,1 @@
+{"completions": 30, "passingYards": 380, "touchdowns": 3, "playerNameSlug": "case-keenum", "teamId": "5110", "interceptions": 0, "playerName": "Case Keenum", "season": 2019, "position": "QB", "type": "pass", "week": 1, "gameId": 2019090806, "esbId": "KEE690598", "firstName": "Casey", "lastName": "Keenum", "attempts": 44, "team": "washington-redskins"}

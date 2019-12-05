@@ -1,0 +1,1 @@
+{"completions": 15, "passingYards": 255, "touchdowns": 1, "playerNameSlug": "gardner-minshew", "teamId": "2250", "interceptions": 0, "playerName": "Gardner Minshew", "season": 2019, "position": "QB", "type": "pass", "week": 7, "gameId": 2019102002, "esbId": "MIN604610", "firstName": "Gardner", "lastName": "Minshew", "attempts": 32, "team": "jacksonville-jaguars"}

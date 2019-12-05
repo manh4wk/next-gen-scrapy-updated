@@ -1,0 +1,1 @@
+{"completions": 20, "passingYards": 253, "touchdowns": 0, "playerNameSlug": "kyler-murray", "teamId": "3800", "interceptions": 0, "playerName": "Kyler Murray", "season": 2019, "position": "QB", "type": "pass", "week": 5, "gameId": 2019100601, "esbId": "MUR670413", "firstName": "Kyler", "lastName": "Murray", "attempts": 32, "team": "arizona-cardinals"}

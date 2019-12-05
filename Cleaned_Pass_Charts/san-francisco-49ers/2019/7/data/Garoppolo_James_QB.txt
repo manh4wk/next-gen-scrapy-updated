@@ -1,0 +1,1 @@
+{"completions": 12, "passingYards": 151, "touchdowns": 0, "playerNameSlug": "jimmy-garoppolo", "teamId": "4500", "interceptions": 1, "playerName": "Jimmy Garoppolo", "season": 2019, "position": "QB", "type": "pass", "week": 7, "gameId": 2019102007, "esbId": "GAR363225", "firstName": "James", "lastName": "Garoppolo", "attempts": 21, "team": "san-francisco-49ers"}

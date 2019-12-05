@@ -1,0 +1,1 @@
+{"completions": 26, "passingYards": 250, "touchdowns": 1, "playerNameSlug": "eli-manning", "teamId": "3410", "interceptions": 2, "playerName": "Eli Manning", "season": 2019, "position": "QB", "type": "pass", "week": 2, "gameId": 2019091506, "esbId": "MAN473170", "firstName": "Elisha", "lastName": "Manning", "attempts": 45, "team": "new-york-giants"}

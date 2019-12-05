@@ -1,0 +1,1 @@
+{"completions": 22, "passingYards": 293, "touchdowns": 2, "playerNameSlug": "derek-carr", "teamId": "2520", "interceptions": 1, "playerName": "Derek Carr", "season": 2019, "position": "QB", "type": "pass", "week": 7, "gameId": 2019102004, "esbId": "CAR358797", "firstName": "Derek", "lastName": "Carr", "attempts": 28, "team": "oakland-raiders"}

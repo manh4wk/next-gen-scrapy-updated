@@ -1,0 +1,1 @@
+{"completions": 25, "passingYards": 342, "touchdowns": 3, "playerNameSlug": "matthew-stafford", "teamId": "1540", "interceptions": 1, "playerName": "Matthew Stafford", "season": 2019, "position": "QB", "type": "pass", "week": 8, "gameId": 2019102703, "esbId": "STA134157", "firstName": "John", "lastName": "Stafford", "attempts": 32, "team": "detroit-lions"}

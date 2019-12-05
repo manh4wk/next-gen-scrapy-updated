@@ -1,0 +1,1 @@
+{"completions": 21, "passingYards": 256, "touchdowns": 3, "playerNameSlug": "josh-allen", "teamId": "0610", "interceptions": 0, "playerName": "Josh Allen", "season": 2019, "position": "QB", "type": "pass", "week": 11, "gameId": 2019111704, "esbId": "ALL529264", "firstName": "Joshua", "lastName": "Allen", "attempts": 33, "team": "buffalo-bills"}

@@ -1,0 +1,1 @@
+{"completions": 18, "passingYards": 119, "touchdowns": 0, "playerNameSlug": "colt-mccoy", "teamId": "5110", "interceptions": 1, "playerName": "Colt McCoy", "season": 2019, "position": "QB", "type": "pass", "week": 5, "gameId": 2019100609, "esbId": "MCC603149", "firstName": "Daniel", "lastName": "McCoy", "attempts": 27, "team": "washington-redskins"}

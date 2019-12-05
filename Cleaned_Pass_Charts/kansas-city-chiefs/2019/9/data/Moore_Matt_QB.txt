@@ -1,0 +1,1 @@
+{"completions": 25, "passingYards": 275, "touchdowns": 1, "playerNameSlug": "matt-moore", "teamId": "2310", "interceptions": 0, "playerName": "Matt Moore", "season": 2019, "position": "QB", "type": "pass", "week": 9, "gameId": 2019110303, "esbId": "MOO551757", "firstName": "Matt", "lastName": "Moore", "attempts": 35, "team": "kansas-city-chiefs"}

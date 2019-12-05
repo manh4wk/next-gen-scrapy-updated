@@ -3,16 +3,17 @@ library(dplyr)
 
 # Use nflscrapR to get NFL game data
 
-games_2017_reg <- scrape_game_ids(2017, type = "reg")
-games_2017_post <- scrape_game_ids(2017, type = "post")
-games_2018_reg <- scrape_game_ids(2018, type = "reg")
-games_2018_post <- scrape_game_ids(2018, type = "post")
+#games_2017_reg <- scrape_game_ids(2017, type = "reg")
+#games_2017_post <- scrape_game_ids(2017, type = "post")
+#games_2018_reg <- scrape_game_ids(2018, type = "reg")
+#games_2018_post <- scrape_game_ids(2018, type = "post")
 games_2019_reg <-scrape_game_ids(2019, type = "reg")
-games_2017_2019 <- as.data.frame(do.call("rbind", list(games_2017_reg, 
-                                                       games_2017_post, 
-                                                       games_2018_reg,
-                                                       games_2018_post,
-                                                       games_2019_reg)))
+#games_2017_2019 <- as.data.frame(do.call("rbind", list(games_2017_reg, 
+#                                                       games_2017_post, 
+#                                                       games_2018_reg,
+#                                                       games_2018_post,
+#                                                       games_2019_reg)))
+games_2017_2019 <- data.frame(games_2019_reg)
 games_2017_2019$week <- NULL
 
 # Read in next-gen-scrapy data

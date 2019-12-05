@@ -1,0 +1,1 @@
+{"completions": 15, "passingYards": 144, "touchdowns": 0, "playerNameSlug": "dwayne-haskins", "teamId": "5110", "interceptions": 0, "playerName": "Dwayne Haskins", "season": 2019, "position": "QB", "type": "pass", "week": 9, "gameId": 2019110301, "esbId": "HAS285847", "firstName": "Dwayne", "lastName": "Haskins", "attempts": 22, "team": "washington-redskins"}

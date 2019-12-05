@@ -1,0 +1,1 @@
+{"completions": 17, "passingYards": 165, "touchdowns": 0, "playerNameSlug": "teddy-bridgewater", "teamId": "3300", "interceptions": 0, "playerName": "Teddy Bridgewater", "season": 2019, "position": "QB", "type": "pass", "week": 2, "gameId": 2019091512, "esbId": "BRI129168", "firstName": "Theodore", "lastName": "Bridgewater", "attempts": 30, "team": "new-orleans-saints"}

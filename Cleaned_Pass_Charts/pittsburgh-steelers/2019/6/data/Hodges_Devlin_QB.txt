@@ -1,0 +1,1 @@
+{"completions": 15, "passingYards": 132, "touchdowns": 1, "playerNameSlug": "devlin-hodges", "teamId": "3900", "interceptions": 1, "playerName": "Devlin Hodges", "season": 2019, "position": "QB", "type": "pass", "week": 6, "gameId": 2019101311, "esbId": "HOD363523", "firstName": "Devlin", "lastName": "Hodges", "attempts": 20, "team": "pittsburgh-steelers"}

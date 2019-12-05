@@ -1,0 +1,1 @@
+{"completions": 21, "passingYards": 214, "touchdowns": 2, "playerNameSlug": "ryan-fitzpatrick", "teamId": "2700", "interceptions": 2, "playerName": "Ryan Fitzpatrick", "season": 2019, "position": "QB", "type": "pass", "week": 12, "gameId": 2019112404, "esbId": "FIT792915", "firstName": "Ryan", "lastName": "Fitzpatrick", "attempts": 39, "team": "miami-dolphins"}

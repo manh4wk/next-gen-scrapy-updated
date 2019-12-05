@@ -1,0 +1,1 @@
+{"completions": 28, "passingYards": 353, "touchdowns": 1, "playerNameSlug": "philip-rivers", "teamId": "4400", "interceptions": 4, "playerName": "Philip Rivers", "season": 2019, "position": "QB", "type": "pass", "week": 11, "gameId": 2019111800, "esbId": "RIV651634", "firstName": "Philip", "lastName": "Rivers", "attempts": 52, "team": "los-angeles-chargers"}

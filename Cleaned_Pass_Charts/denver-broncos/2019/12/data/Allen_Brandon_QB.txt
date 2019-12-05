@@ -1,0 +1,1 @@
+{"completions": 10, "passingYards": 82, "touchdowns": 0, "playerNameSlug": "brandon-allen", "teamId": "1400", "interceptions": 1, "playerName": "Brandon Allen", "season": 2019, "position": "QB", "type": "pass", "week": 12, "gameId": 2019112401, "esbId": "ALL063816", "firstName": "Brandon", "lastName": "Allen", "attempts": 25, "team": "denver-broncos"}

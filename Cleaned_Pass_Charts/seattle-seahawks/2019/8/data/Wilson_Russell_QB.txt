@@ -1,0 +1,1 @@
+{"completions": 14, "passingYards": 182, "touchdowns": 2, "playerNameSlug": "russell-wilson", "teamId": "4600", "interceptions": 0, "playerName": "Russell Wilson", "season": 2019, "position": "QB", "type": "pass", "week": 8, "gameId": 2019102700, "esbId": "WIL777781", "firstName": "Russell", "lastName": "Wilson", "attempts": 20, "team": "seattle-seahawks"}

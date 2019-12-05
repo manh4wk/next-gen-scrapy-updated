@@ -1,0 +1,1 @@
+{"completions": 27, "passingYards": 233, "touchdowns": 0, "playerNameSlug": "kirk-cousins", "teamId": "3000", "interceptions": 0, "playerName": "Kirk Cousins", "season": 2019, "position": "QB", "type": "pass", "week": 4, "gameId": 2019092910, "esbId": "COU709400", "firstName": "Kirk", "lastName": "Cousins", "attempts": 36, "team": "minnesota-vikings"}

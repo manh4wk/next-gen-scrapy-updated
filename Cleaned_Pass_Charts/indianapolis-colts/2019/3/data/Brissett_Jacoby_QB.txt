@@ -1,0 +1,1 @@
+{"completions": 28, "passingYards": 310, "touchdowns": 2, "playerNameSlug": "jacoby-brissett", "teamId": "2200", "interceptions": 0, "playerName": "Jacoby Brissett", "season": 2019, "position": "QB", "type": "pass", "week": 3, "gameId": 2019092203, "esbId": "BRI516391", "firstName": "Jacoby", "lastName": "Brissett", "attempts": 37, "team": "indianapolis-colts"}

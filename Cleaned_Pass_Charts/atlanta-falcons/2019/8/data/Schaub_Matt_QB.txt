@@ -1,0 +1,1 @@
+{"completions": 39, "passingYards": 460, "touchdowns": 1, "playerNameSlug": "matt-schaub", "teamId": "0200", "interceptions": 1, "playerName": "Matt Schaub", "season": 2019, "position": "QB", "type": "pass", "week": 8, "gameId": 2019102700, "esbId": "SCH085186", "firstName": "Matt", "lastName": "Schaub", "attempts": 52, "team": "atlanta-falcons"}

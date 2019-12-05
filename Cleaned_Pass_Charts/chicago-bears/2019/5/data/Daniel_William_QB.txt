@@ -1,0 +1,1 @@
+{"completions": 22, "passingYards": 231, "touchdowns": 2, "playerNameSlug": "chase-daniel", "teamId": "0810", "interceptions": 2, "playerName": "Chase Daniel", "season": 2019, "position": "QB", "type": "pass", "week": 5, "gameId": 2019100605, "esbId": "DAN230354", "firstName": "William", "lastName": "Daniel", "attempts": 30, "team": "chicago-bears"}

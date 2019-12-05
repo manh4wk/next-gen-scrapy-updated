@@ -1,0 +1,1 @@
+{"completions": 18, "passingYards": 204, "touchdowns": 1, "playerNameSlug": "brian-hoyer", "teamId": "2200", "interceptions": 3, "playerName": "Brian Hoyer", "season": 2019, "position": "QB", "type": "pass", "week": 10, "gameId": 2019111008, "esbId": "HOY440791", "firstName": "Brian", "lastName": "Hoyer", "attempts": 39, "team": "indianapolis-colts"}

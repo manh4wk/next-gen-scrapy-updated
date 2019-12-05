@@ -1,0 +1,1 @@
+{"completions": 17, "passingYards": 180, "touchdowns": 1, "playerNameSlug": "josh-rosen", "teamId": "2700", "interceptions": 1, "playerName": "Josh Rosen", "season": 2019, "position": "QB", "type": "pass", "week": 4, "gameId": 2019092906, "esbId": "ROS357433", "firstName": "Joshua", "lastName": "Rosen", "attempts": 24, "team": "miami-dolphins"}

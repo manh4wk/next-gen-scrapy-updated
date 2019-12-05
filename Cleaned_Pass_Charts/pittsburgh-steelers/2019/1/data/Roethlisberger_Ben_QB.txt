@@ -1,0 +1,1 @@
+{"completions": 27, "passingYards": 276, "touchdowns": 0, "playerNameSlug": "ben-roethlisberger", "teamId": "3900", "interceptions": 1, "playerName": "Ben Roethlisberger", "season": 2019, "position": "QB", "type": "pass", "week": 1, "gameId": 2019090812, "esbId": "ROE750381", "firstName": "Ben", "lastName": "Roethlisberger", "attempts": 47, "team": "pittsburgh-steelers"}

@@ -1,0 +1,1 @@
+{"completions": 18, "passingYards": 184, "touchdowns": 1, "playerNameSlug": "drew-brees", "teamId": "3300", "interceptions": 0, "playerName": "Drew Brees", "season": 2019, "position": "QB", "type": "pass", "week": 13, "gameId": 2019112802, "esbId": "BRE229498", "firstName": "Drew", "lastName": "Brees", "attempts": 30, "team": "new-orleans-saints"}

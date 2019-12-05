@@ -1,0 +1,1 @@
+{"completions": 28, "passingYards": 307, "touchdowns": 1, "playerNameSlug": "kyle-allen", "teamId": "0750", "interceptions": 1, "playerName": "Kyle Allen", "season": 2019, "position": "QB", "type": "pass", "week": 10, "gameId": 2019111003, "esbId": "ALL543234", "firstName": "Kyle", "lastName": "Allen", "attempts": 43, "team": "carolina-panthers"}

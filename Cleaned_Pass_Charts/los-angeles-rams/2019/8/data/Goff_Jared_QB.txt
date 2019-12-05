@@ -1,0 +1,1 @@
+{"completions": 17, "passingYards": 372, "touchdowns": 2, "playerNameSlug": "jared-goff", "teamId": "2510", "interceptions": 0, "playerName": "Jared Goff", "season": 2019, "position": "QB", "type": "pass", "week": 8, "gameId": 2019102706, "esbId": "GOF219636", "firstName": "Jared", "lastName": "Goff", "attempts": 31, "team": "los-angeles-rams"}

@@ -18,6 +18,7 @@ from undistort_field import *
 from pass_detection import *
 import json
 import scipy.misc
+import imageio
 
 def new_image(image):
 
@@ -38,7 +39,8 @@ def new_image(image):
 
 	if (clean_img != None):
 		write_name = write_path + os.sep + img_name + ".jpeg"
-		scipy.misc.imsave(write_name, clean_img)
+		#scipy.misc.imsave(write_name, clean_img)
+		imageio.imwrite(write_name, clean_img)
 	os.remove(temp_name)
 
 def new_data(folder, image): 

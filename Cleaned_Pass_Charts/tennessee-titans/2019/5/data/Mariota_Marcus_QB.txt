@@ -1,0 +1,1 @@
+{"completions": 13, "passingYards": 183, "touchdowns": 0, "playerNameSlug": "marcus-mariota", "teamId": "2100", "interceptions": 0, "playerName": "Marcus Mariota", "season": 2019, "position": "QB", "type": "pass", "week": 5, "gameId": 2019100608, "esbId": "MAR186347", "firstName": "Marcus", "lastName": "Mariota", "attempts": 22, "team": "tennessee-titans"}

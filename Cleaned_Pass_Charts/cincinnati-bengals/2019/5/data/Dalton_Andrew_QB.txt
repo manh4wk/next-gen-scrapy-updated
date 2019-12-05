@@ -1,0 +1,1 @@
+{"completions": 27, "passingYards": 262, "touchdowns": 2, "playerNameSlug": "andy-dalton", "teamId": "0920", "interceptions": 0, "playerName": "Andy Dalton", "season": 2019, "position": "QB", "type": "pass", "week": 5, "gameId": 2019100601, "esbId": "DAL659900", "firstName": "Andrew", "lastName": "Dalton", "attempts": 38, "team": "cincinnati-bengals"}

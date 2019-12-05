@@ -22,28 +22,28 @@ import json
 import scipy.misc
 import pandas as pd
 
-teams = ["arizona-cardinals",
-	"atlanta-falcons",
-	"baltimore-ravens",
-	"buffalo-bills",
-	"carolina-panthers",
-	"chicago-bears",
-	"cincinnati-bengals",
-	"cleveland-browns",
-	"dallas-cowboys",
-	"denver-broncos",
-	"detroit-lions",
-	"green-bay-packers",
-	"houston-texans",
-	"indianapolis-colts",
-	"jacksonville-jaguars",
-	"kansas-city-chiefs",
-	"los-angeles-chargers",
-	"los-angeles-rams",
-	"miami-dolphins",
-	"minnesota-vikings",
-	"new-england-patriots",
-	"new-orleans-saints",
+teams = [#"arizona-cardinals",
+	#"atlanta-falcons",
+	#"baltimore-ravens",
+	#"buffalo-bills",
+	#"carolina-panthers",
+	#"chicago-bears",
+	#"cincinnati-bengals",
+	#"cleveland-browns",
+	#"dallas-cowboys",
+	#"denver-broncos",
+	#"detroit-lions",
+	#"green-bay-packers",
+	#"houston-texans",
+	#"indianapolis-colts",
+	#"jacksonville-jaguars",
+	#"kansas-city-chiefs",
+	#"los-angeles-chargers",
+	#"los-angeles-rams",
+	#"miami-dolphins",
+	#"minnesota-vikings",
+	#"new-england-patriots",
+	#"new-orleans-saints",
 	"new-york-giants",
 	"new-york-jets",
 	"oakland-raiders",
@@ -66,8 +66,8 @@ pattern = re.compile("charts")
 print("Scraping images and html data...")
 for team in teams:
 	for season in seasons:
-		print(team, "\t", season)
 		for week in weeks:
+			print(team, "\t", season, "\t", week)
 			URL = "https://nextgenstats.nfl.com/charts/list/pass/" + team + "/" + season + "/" + week
 			r = requests.get(URL)
 

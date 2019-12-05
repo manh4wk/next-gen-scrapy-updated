@@ -1,0 +1,1 @@
+{"completions": 24, "passingYards": 315, "touchdowns": 0, "playerNameSlug": "patrick-mahomes", "teamId": "2310", "interceptions": 0, "playerName": "Patrick Mahomes", "season": 2019, "position": "QB", "type": "pass", "week": 4, "gameId": 2019092903, "esbId": "MAH401939", "firstName": "Patrick", "lastName": "Mahomes", "attempts": 42, "team": "kansas-city-chiefs"}

@@ -1,0 +1,1 @@
+{"completions": 18, "passingYards": 134, "touchdowns": 2, "playerNameSlug": "drew-lock", "teamId": "1400", "interceptions": 1, "playerName": "Drew Lock", "season": 2019, "position": "QB", "type": "pass", "week": 13, "gameId": 2019120109, "esbId": "LOC374482", "firstName": "Drew", "lastName": "Lock", "attempts": 28, "team": "denver-broncos"}

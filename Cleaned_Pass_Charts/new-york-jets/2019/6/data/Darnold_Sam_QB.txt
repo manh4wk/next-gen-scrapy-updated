@@ -1,0 +1,1 @@
+{"completions": 23, "passingYards": 338, "touchdowns": 2, "playerNameSlug": "sam-darnold", "teamId": "3430", "interceptions": 1, "playerName": "Sam Darnold", "season": 2019, "position": "QB", "type": "pass", "week": 6, "gameId": 2019101310, "esbId": "DAR466141", "firstName": "Sam", "lastName": "Darnold", "attempts": 32, "team": "new-york-jets"}

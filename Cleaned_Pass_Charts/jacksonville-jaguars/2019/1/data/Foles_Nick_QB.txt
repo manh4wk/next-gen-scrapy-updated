@@ -1,0 +1,1 @@
+{"completions": 5, "passingYards": 75, "touchdowns": 1, "playerNameSlug": "nick-foles", "teamId": "2250", "interceptions": 0, "playerName": "Nick Foles", "season": 2019, "position": "QB", "type": "pass", "week": 1, "gameId": 2019090802, "esbId": "FOL058566", "firstName": "Nick", "lastName": "Foles", "attempts": 8, "team": "jacksonville-jaguars"}
