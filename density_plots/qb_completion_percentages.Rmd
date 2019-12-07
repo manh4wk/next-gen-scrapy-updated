@@ -1,5 +1,5 @@
 ---
-title: "2018 QB vs. League Average Completion Percentages"
+title: "2019 QB vs. League Average Completion Percentages"
 subtitle: "For Quarterbacks with at least 100 Complete Passes in Regular Season"
 author: "Sarah Mallepalle"
 date: "1/11/2019"
@@ -18,6 +18,11 @@ library(mgcv)
 
 # Load all the data and make data frames
 pass_df <- read.csv("../pass_and_game_data.csv")
+# The pre-loaded dataset has different column titles than the code expects
+names(pass_df)[names(pass_df) == "X"] <- "index"
+names(pass_df)[names(pass_df) == "x_coord"] <- "x"
+names(pass_df)[names(pass_df) == "y_coord"] <- "y"
+
 passes <- subset(pass_df, !(is.na(x)) & type == "reg")
 
 passes <- passes %>%
@@ -30,17 +35,17 @@ passes <- passes %>%
 complete <- subset(passes, pass_type %in% c("COMPLETE", "TOUCHDOWN"))
 incomplete <- subset(passes, pass_type %in% c("INCOMPLETE", "INTERCEPTION"))
 
-passes_18 <- subset(passes, season == 2018)
-complete_18 <- subset(complete, season == 2018)
-incomplete_18 <- subset(incomplete, season == 2018)
+passes_19 <- subset(passes, season == 2019)
+complete_19 <- subset(complete, season == 2019)
+incomplete_19 <- subset(incomplete, season == 2019)
 
-qb_names<- names(which(sort(table(complete_18$name)) >= 100))
+qb_names<- names(which(sort(table(complete_19$name)) >= 100))
 ```
 
 
 ```{r}
 # Ron's code to predict completion percentages over the entire field
-league_complete_model <- gam(is_complete ~ s(x, y), data = passes_18)
+league_complete_model <- gam(is_complete ~ s(x, y), data = passes_19)
 
 a <- seq(-30, 30, length.out = 30--30+1)
 b <- seq(-10, 55, length.out = 55--10+1)
@@ -69,7 +74,7 @@ ggplot(predict_data) +
 # Completion percentages vs. league average for every quarterback with >= 100 completions
 
 for (qb in qb_names) {
-  qb_df <- subset(passes_18, name == qb)
+  qb_df <- subset(passes_19, name == qb)
   team <- qb_df[1,]$team
   cap <- paste("Total Passes =", nrow(qb_df))
   
@@ -83,7 +88,7 @@ for (qb in qb_names) {
     theme_bw() +
     labs(x = "Field Width", y = "Field Length",
        fill = "Probability") +
-    ggtitle(paste("Completion Percentage:\n", qb, " (", team,  ") in 2018", sep = "")) 
+    ggtitle(paste("Completion Percentage:\n", qb, " (", team,  ") in 2019", sep = "")) 
   print(gg_completion_prop)
   
   gg_league_compare <- ggplot(predict_data) +
@@ -94,7 +99,7 @@ for (qb in qb_names) {
     labs(x = "Field Width", y = "Field Length",
        fill = "Probability",
        caption = cap) +
-    ggtitle(paste("Completion Percentage vs. League Average:\n",  qb, " (", team,  ") in 2018", sep = "")) 
+    ggtitle(paste("Completion Percentage vs. League Average:\n",  qb, " (", team,  ") in 2019", sep = "")) 
   print(gg_league_compare)
 }
 ```

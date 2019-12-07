@@ -1,0 +1,139 @@
+---
+title: "Density Plots - Dallas Cowboys 2019 Regular Season Completed Pass Locations"
+date: Thru Week 13
+output: pdf_document
+---
+
+```{r setup, include=FALSE, warning = FALSE, message = FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+library(MASS)
+library(tidyverse)
+library(mgcv)
+library(ramify)
+```
+
+```{r, include=FALSE, warning = FALSE, message = FALSE}
+pass_df <- read.csv("../pass_and_game_data.csv")
+# The pre-loaded dataset has different column titles than the code expects
+names(pass_df)[names(pass_df) == "X"] <- "index"
+names(pass_df)[names(pass_df) == "x_coord"] <- "x"
+names(pass_df)[names(pass_df) == "y_coord"] <- "y"
+
+# It is common for some passes to not appear on the next gen stats images.
+# These receive x's and y's of NA
+passes <- subset(pass_df, !(is.na(x)) & type == "reg")
+
+TEAM_FILTER <- "DAL"
+passes <- subset(passes, home_team == TEAM_FILTER | away_team == TEAM_FILTER)
+
+passes <- passes %>%
+  mutate(is_complete = 
+           ifelse(pass_type %in% c("COMPLETE", "TOUCHDOWN"), 1, 0),
+         is_incomplete = 
+           ifelse(pass_type %in% c("COMPLETE", "TOUCHDOWN"), 0, 1)
+         )
+passes<- passes %>%
+  mutate(team_result = 
+           ifelse(
+            (home_team == TEAM_FILTER & home_score > away_score) |
+            (away_team == TEAM_FILTER & away_score > home_score),
+            "Wins",
+            "Losses")
+  )
+
+complete <- subset(passes, pass_type %in% c("COMPLETE", "TOUCHDOWN"))
+incomplete <- subset(passes, pass_type %in% c("INCOMPLETE", "INTERCEPTION"))
+
+# Filter to different kinds of passes
+passes_19 <- subset(passes, season == 2019)
+complete_19 <- subset(complete, season == 2019)
+incomplete_19 <- subset(incomplete, season == 2019)
+
+
+```
+
+```{r, fig.align = 'center', fig.height=4}
+groups <- sort(unique(as.character(complete_19$team_result)))
+
+for (g in groups) {
+
+  group_passes <- subset(passes_19, team_result == g)
+  group_complete <- subset(complete_19, team_result == g)
+  group_incomplete <- subset(incomplete_19, team_result == g)
+  
+  # Scatter plot of completions/incompletions/touchdowns
+  group_scatter <- ggplot(data = group_complete, aes(x = x, y = y)) +
+    geom_point(aes(color = pass_type), size = 0.5) +
+    scale_color_manual(values = c("green", "blue"), "Pass Type") +
+    geom_hline(color = "blue", yintercept = 0) +
+    annotate("text", -30, 0, vjust = -0.5, label = "LOS") +
+    theme_bw() +
+    labs(x = "Field Width", y = "Field Length") +
+    ggtitle(paste("Completed Passes:\n", g, " in 2019", sep = "")) 
+  print(group_scatter)
+  
+  # KDE plot of all Passes
+  group_passes_kde <- kde2d(group_passes$x, group_passes$y, h = c(5, 5))
+  group_passes_grid <- data.frame(with(group_passes_kde, expand.grid(x,y)), as.vector(group_passes_kde$z))
+  names(group_passes_grid) <- c("x", "y", "z")
+  group_passes_model <- gam(z ~ s(x, y), data = group_passes_grid)
+  group_passes$dens <- ramify::clip(predict(group_passes_model,
+                                newdata = data.frame(x = group_passes$x, y = group_passes$y)
+                                ),0,1)
+  median_passes <-  median(group_passes$dens)
+  
+  group_passes_dens <- ggplot(group_passes, aes(x = x, y = y, color = dens)) +
+    stat_density_2d(aes(fill = ..density..), geom = "raster", contour = FALSE,
+                 h = c(7.5, 7.5)) +
+    scale_fill_gradient2(low = "darkred", high = "darkblue", mid = "white", midpoint = median_passes) +
+    labs(x = "Field Width", y = "Field Length",
+       color = "Density", fill = "KDE\nLevel") +
+    geom_hline(color = "blue", yintercept = 0) +
+    annotate("text", -30, 0, vjust = -0.5, label = "LOS") +
+    ggtitle(paste("All Passes Density:\n", g, " in 2019", sep = ""))
+  print(group_passes_dens)
+  
+  # KDE plot of Completions
+  group_kde <- kde2d(group_complete$x, group_complete$y, h = c(5, 5))
+  group_grid <- data.frame(with(group_kde, expand.grid(x,y)), as.vector(group_kde$z))
+  names(group_grid) <- c("x", "y", "z")
+  group_model <- gam(z ~ s(x, y), data = group_grid)
+  group_complete$dens <- predict(group_model, 
+                                newdata = data.frame(x = group_complete$x, y = group_complete$y)
+                                )
+  median <-  median(group_complete$dens)
+  
+  group_dens <- ggplot(group_complete, aes(x = x, y = y, color = dens)) + 
+    stat_density_2d(aes(fill = ..density..), geom = "raster", contour = FALSE,
+                 h = c(7.5, 7.5)) + 
+    scale_fill_gradient2(low = "darkred", high = "darkblue", mid = "white", midpoint = median) +
+    labs(x = "Field Width", y = "Field Length",
+       color = "Density", fill = "KDE\nLevel") +
+    geom_hline(color = "blue", yintercept = 0) +
+    annotate("text", -30, 0, vjust = -0.5, label = "LOS") +
+    ggtitle(paste("Completed Passes Density:\n", g, " in 2019", sep = "")) 
+  print(group_dens)
+  
+  # KDE plot of Incompletions
+  group_incomplete_kde <- kde2d(group_incomplete$x, group_incomplete$y, h = c(5, 5))
+  group_incomplete_grid <- data.frame(with(group_incomplete_kde, expand.grid(x,y)), as.vector(group_incomplete_kde$z))
+  names(group_incomplete_grid) <- c("x", "y", "z")
+  group_incomplete_model <- gam(z ~ s(x, y), data = group_incomplete_grid)
+  group_incomplete$dens <- predict(group_incomplete_model, 
+                                newdata = data.frame(x = group_incomplete$x, y = group_incomplete$y)
+                                )
+  median_incomplete <-  median(group_incomplete$dens)
+  
+  group_incomplete_dens <- ggplot(group_incomplete, aes(x = x, y = y, color = dens)) + 
+    stat_density_2d(aes(fill = ..density..), geom = "raster", contour = FALSE,
+                 h = c(7.5, 7.5)) + 
+    scale_fill_gradient2(low = "darkred", high = "darkblue", mid = "white", midpoint = median) +
+    labs(x = "Field Width", y = "Field Length",
+       color = "Density", fill = "KDE\nLevel") +
+    geom_hline(color = "blue", yintercept = 0) +
+    annotate("text", -30, 0, vjust = -0.5, label = "LOS") +
+    ggtitle(paste("Incompleted Passes Density:\n", g, " in 2019", sep = "")) 
+  print(group_incomplete_dens)
+}
+```
+

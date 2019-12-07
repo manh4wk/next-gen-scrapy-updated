@@ -51,7 +51,7 @@ for (t in teams) {
     annotate("text", -30, 0, vjust = -0.5, label = "LOS") +
     theme_bw() +
     labs(x = "Field Width", y = "Field Length") +
-    ggtitle(paste("Complete Passes:\n", t, " in 2019", sep = "")) 
+    ggtitle(paste("Completed Passes:\n", t, " in 2019", sep = "")) 
   print(team_scatter)
   
   team_kde <- kde2d(team_complete$x, team_complete$y, h = c(5, 5))
@@ -71,7 +71,7 @@ for (t in teams) {
        color = "Density", fill = "KDE\nLevel") +
     geom_hline(color = "blue", yintercept = 0) +
     annotate("text", -30, 0, vjust = -0.5, label = "LOS") +
-    ggtitle(paste("Complete Passes Density:\n", t, " in 2019", sep = "")) 
+    ggtitle(paste("Completed Passes Density:\n", t, " in 2019", sep = "")) 
   print(team_dens)
 }
 ```
